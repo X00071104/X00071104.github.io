@@ -1,0 +1,114 @@
+@media (min-width: 10px) {
+	.jumbotron {
+		padding-bottom: 0;
+		padding-top: 0;
+		
+		
+	}
+	
+}
+
+@media (max-width: 1000px){
+	.h-text {
+	/*background: rgba(38,38,38,0.5);*/
+	
+}
+}
+
+@media (min-width: 500px) {
+	
+	.jumbotron {
+		
+		background-position: right;
+		
+	}
+	
+}
+
+@media (max-width: 1600px) {	
+body{
+	
+	background-position: 55% 0%;
+}
+}
+
+
+@media (max-width: 499px) {	
+body{
+	
+	background-position: 55% 0%;
+}
+	.jumbotron {
+		background-position: center;
+	}
+}
+
+body {
+	/*color: white;*/
+	/*background-color: rgb(38,38,38);*/
+	background-image: url('../Images/computer-desk-electronics-238118.jpg');
+	/*background-image: url('../Images/computer-gadgets-iphone-163143.jpg');*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#main {
+	
+	min-height: 15rem;
+}
+
+#main-footer {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.list-group-flush, .list-group-item, .card-body {
+	color: white;
+	background-color: rgb(81,82,84);
+}
+.card-header {
+    padding: 0.25rem 1rem !important;
+}
+.card-body {
+	padding: 0.5rem !important;
+}
+
+.jumbotron {
+	
+	background-color: transparent /*rgb(38,38,38)*/;
+	/*background-image: url('../Images/Profile.jfif');*/
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 20rem;
+	
+	
+		}
+		
+.h-contain {
+	
+	
+	height: 14rem;
+}
+
+
+
+.text-shadow {
+	
+	text-shadow: 1px 1px 3px rgba(255,255,255,0.3);
+	
+	
+}
+.back-link, .forward-link{
+	visibility: hidden;
+}
+.back-link:hover, .forward-link:hover {
+	visibility: visible;
+}
+
+.modal-text, .list-group{
+	
+	color: #3f3f3f;
+	
+	
+}
